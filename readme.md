@@ -5,7 +5,7 @@ Simple Chess game
 
 # Diffuculy Setting
 
-change  '''const depth = 3''' for to have more fun
+change  **const depth = 3** for to have more fun
 
 depth 3, the algorithm evaluates approximately 27.000 positions - Game Fast
 depth 4, the algorithm evaluates approximately 810.000 positions - Game gets a bit slower
