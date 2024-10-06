@@ -3,7 +3,7 @@
 Simple Chess game 
 
 
-# Diffuculy Setting
+# Difficult Setting
 
 change  **const depth = 3** for to have more fun
 
