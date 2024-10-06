@@ -1,0 +1,43 @@
+#game {
+    width: 480px;
+    height: 480px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .square {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .square.light {
+    background-color: #f0d9b5;
+  }
+
+  .square.dark {
+    background-color: #b58863;
+  }
+
+  .piece {
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+  }
+
+  .piece.selected {
+    background-color: rgba(255, 255, 0, 0.5);
+  }
+
+  /* Added CSS for the message div */
+  #message {
+    width: 480px;
+    margin: 10px auto;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    min-height: 20px;
+  }
